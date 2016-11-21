@@ -1,0 +1,70 @@
+body {
+	display: flex;
+	justify-content: center;
+	font-family: cursive;
+	background-image: url(https://www.planwallpaper.com/static/images/i-should-buy-a-boat.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+#general {
+	width: 45vw;
+	height: 35vw;
+	border: 0.1vw solid white;
+	background-image: url(http://www.yulutime.com/i/2016/10/night-sky-stars-wallpaper-phone.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#pantalla {
+	width: 45vw;
+	height: 5vw;
+	border: 0.1vw solid black;
+	background-image: url(https://images.alphacoders.com/174/174331.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+#numeros {
+	width: 29vw;
+	height: 29vw;
+	border: 0.1vw solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+#simbolos {
+	width: 15vw;
+	height: 29vw;
+	border: 0.1vw solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+#numeros > div {
+	width: 8vw;
+	height: 4vw;
+	border: 0.1vw solid black;
+	text-align: center;
+	background: #0061ff;
+	font-size: 2vw;
+}	
+#simbolos > div {
+	width: 8vw;
+	height: 3vw;
+	border: 0.1vw solid black;
+	text-align: center;
+	background: #0061ff;
+	font-size: 2vw;
+}
+#numeros > div:hover {
+	background: #5a90e8;
+}
+#simbolos > div:hover {
+	background: #5a90e8;
+}
