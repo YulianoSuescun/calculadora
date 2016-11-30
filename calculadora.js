@@ -63,8 +63,8 @@ function manejarClick() {
 	var igual=document.getElementById("igual");
 	igual.addEventListener("click",operacion);
 
-	/*var borrar=document.getElementById("borrar");
-	borrar.addEventListener("click",borrarpantalla);*/
+	var borrar=document.getElementById("borrar");
+	borrar.addEventListener("click",borrarpantalla);
 
 }
 function clicEn(num){
@@ -77,8 +77,9 @@ function operacion(){
 	var pant=document.getElementById("pantalla");
 	pant.textContent=resultado;
 }
-/*function borrarpantalla() {
-	var resultado=eval(cifra1="");
-
-	pant.textContent=
-}*/
+function borrarpantalla() {
+	var pant=document.getElementById("pantalla")
+	var borr=cifra1.slice(0,-1);
+	cifra1=borr;
+	pant.textContent=borr;
+}

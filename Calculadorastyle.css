@@ -22,7 +22,7 @@ body {
 #pantalla {
 	width: 45vw;
 	height: 5vw;
-	border: 0.1vw solid black;
+	border: 0.1vw solid white;
 	background-image: url(https://images.alphacoders.com/174/174331.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -31,7 +31,7 @@ body {
 #numeros {
 	width: 29vw;
 	height: 29vw;
-	border: 0.1vw solid black;
+	border: 0.1vw solid white;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -40,7 +40,7 @@ body {
 #simbolos {
 	width: 15vw;
 	height: 29vw;
-	border: 0.1vw solid black;
+	border: 0.1vw solid white;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -49,18 +49,20 @@ body {
 #numeros > div {
 	width: 8vw;
 	height: 4vw;
-	border: 0.1vw solid black;
+	border: 0.1vw solid white;
 	text-align: center;
 	background: #0061ff;
 	font-size: 2vw;
+	color: white;
 }	
 #simbolos > div {
 	width: 8vw;
 	height: 3vw;
-	border: 0.1vw solid black;
+	border: 0.1vw solid white;
 	text-align: center;
 	background: #0061ff;
 	font-size: 2vw;
+	color: white;
 }
 #numeros > div:hover {
 	background: #5a90e8;
